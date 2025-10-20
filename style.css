@@ -1,0 +1,242 @@
+/* GENERAL STYLES */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf6f0;
+    color: #3e2723;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    background-image: url(./assets/images/header.jpeg);
+    background-size: cover;
+    height: 300px;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+.cedarville-cursive-regular {
+    font-size: 30px;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* NAVBAR */
+
+nav {
+    background-color: #815738;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #241002;
+}
+
+/* HOME CONTENT */
+
+.content {
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #6f4e37;
+}
+
+.menu, .Treats, .Tea {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#Treats {
+    color: #6f3751;
+}
+
+#Tea {
+    color: #054b21;
+}
+
+/* ITEM BOXES */
+
+.item, .sweet, .tea {
+    background: white;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.item:hover, .sweet:hover, .tea:hover {
+    transform: translateY(-5px);
+}
+
+.item h3 {
+    margin: 10px 0;
+    color: #6f4e37;
+}
+
+.tea h3 {
+    color: #054b21;
+}
+
+.sweet h3 {
+    color: #56082f;
+}
+
+.item p, .sweet p, .tea {
+    color: #444;
+}
+
+.Specials {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #372518;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* MENU PAGE */
+
+#menu-title{
+    text-align: center;
+}
+
+.menu-section {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.menu-section h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #5d4037;
+    border-bottom: 2px solid #8d6e63;
+    padding-bottom: 5px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-item img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.item-name {
+    font-weight: 500;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.item-price {
+    font-weight: bold;
+}
+
+/* BUTTON */
+
+.button{
+    background-color: #815738;
+    height: 50px;
+    width: 70px;
+    border-radius: 20%;
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    color: antiquewhite;
+    transition: 0.3s;
+}
+
+button:hover {
+  background: #372518;
+  transform: scale(1.05);
+}
+
+/* ABOUT PAGE AND CONTACT PAGE */
+
+.about-content, .contactsection {
+    padding: 40px;
+    max-width: 800px;
+    margin: 60px auto;
+    text-align: justify;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#note {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff3e0;
+    border-left: 5px solid #ffb74d;
+}
+
+#contact {
+    color: #674833;
+    text-decoration: underline;
+    border: 1px solid #6f6868;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+    display: inline-block;
+}
+
+#contact h2 {
+    margin-top: 0;
+    color: #53280c;
+}
+
+#about-me {
+    color: #633b21;
+    text-decoration: underline;
+}
