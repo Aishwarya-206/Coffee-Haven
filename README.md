@@ -32,6 +32,11 @@ It’s a simple yet elegant project built using **HTML and CSS**, showcasing cle
 
 ---
 
+## 🌐 Live Demo
+Visit the live site here 👉 [https://aishwarya-206.github.io/Coffee-Haven/](https://aishwarya-206.github.io/Coffee-Haven/)
+
+---
+
 ## 💡 Future Improvements
 - Add responsive design for mobile view  
 - Add interactivity using JavaScript  
